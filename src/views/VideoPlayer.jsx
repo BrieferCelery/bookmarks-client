@@ -10,8 +10,10 @@ class VideoPlayer extends React.Component {
 
         return(
             <div className="player-wrapper">
-                 <ReactPlayer 
-                    url="http://www.youtube.com/watch?v=KkF9Dz2g1nA"
+                 <ReactPlayer
+                    playing = {true}
+                    controls={true}
+                    url="https://www.youtube.com/watch?v=KkF9Dz2g1nA"
                     className="react-player"
                  />
             </div>
